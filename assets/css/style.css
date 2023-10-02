@@ -1,0 +1,211 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: var(--text-primary-light-color);
+  background:var(--bg-primary-color) ;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --bg-primary-color: #F9F9FB;
+  --bg-secondary-color: #F9FAFD;
+  --bg-secondary-color-light: #F2F4F7;
+  --text-color: #434756;
+  --text-primary-color: #000;
+  --text-primary-color-light: #2E41D2;
+  --text-primary-light-color: #242424;
+  --text-secondary-color: #ff2101;
+  --background-gradient-color: linear-gradient(121deg,#4b48eb,#ff2101e6);
+  --white-color: #fff;
+  --white-rgba-color: 0 2px 6px rgba(0, 0, 0, 0.15);
+  --transition: all 0.3s linear;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration:none ;
+  color: inherit;
+}
+img{
+  max-width: 100%;
+}
+/****** Header Section Start Hare******/
+header {
+  background-color: var(--bg-secondary-color);
+  padding: 15px 0;
+}
+header .content-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .left{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo-wrapper img{
+  width: 100px;
+}
+header  ul{
+  margin-bottom:0px;
+}
+header .nav-menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .left ul li{
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 17px;
+  text-transform: capitalize;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+  font-weight: 500;
+}
+header .left ul li:hover {
+  color: var(--text-secondary-color);
+}
+header img{
+  width: 25px;
+  cursor: pointer;
+}
+header .right ul{
+  gap: 15px;
+}
+/****** Header Section End Hare******/
+
+/********* Search Area Start HAre*********/
+.search-area{
+  padding: 50px 0;
+}
+.search-area .icon-wrapper{
+  text-align: center;
+}
+.search-area .icon-wrapper img{
+  max-width: 430px;
+}
+.search-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color:#fffbf8;
+  padding:13px;
+  max-width:575px;
+  margin:30px auto;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  border-radius:6px;
+  -webkit-box-shadow:
+      0 2px 4px 0 rgba(72, 72, 72, 0.83),
+      0 10px 15px 0 rgba(126, 126, 126, 0.12),
+      0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+      0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+  box-shadow: 
+      0 2px 4px 0 rgba(72, 72, 72, 0.83),
+      0 10px 15px 0 rgba(126, 126, 126, 0.12),
+      0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+      0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+}
+.search-box img{
+  width: 20px;
+  cursor: pointer;
+}
+.search-box .icon-2{
+  text-align: right;
+}
+.search-input{
+  width: 100%;
+}
+input[type="search"]{
+  width:100%;
+  padding-left:10px;
+  border:none;
+  color:#939393;
+  font-weight:500;
+  background-color:#fffbf8;
+}
+
+input[type="search"]:focus{
+  outline:0;
+}
+/********* Search Area End HAre*********/
+
+/********* Service Area Start Hare *********/
+.service-area .content-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.service-area .inner{
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 15px;
+  border-radius: 10px;
+  background-color: var(--bg-secondary-color);
+  cursor: pointer;
+  -webkit-box-shadow: var(--white-rgba-color);
+          box-shadow: var(--white-rgba-color);
+  margin-bottom: 25px;
+
+}
+.service-area .inner img{
+  max-width: 50px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
+}
+.service-area a{
+  display: inline-block;
+  text-align: center;
+  
+}
+.service-area .inner:hover img{
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.service-area p{
+  margin-top: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/********* Service Area End Hare *********/
