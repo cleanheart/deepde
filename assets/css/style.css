@@ -56,9 +56,7 @@ header .left{
       -ms-flex-align: center;
           align-items: center;
 }
-.logo-wrapper img{
-  width: 100px;
-}
+
 header  ul{
   margin-bottom:0px;
 }
@@ -94,13 +92,14 @@ header .right ul{
 
 /********* Search Area Start HAre*********/
 .search-area{
-  padding: 50px 0;
+  padding: 50px 0px 30px 0;
 }
 .search-area .icon-wrapper{
   text-align: center;
+  margin-bottom: 30px;
 }
 .search-area .icon-wrapper img{
-  max-width: 430px;
+  max-width: 255px;
 }
 .search-box{
   display: -webkit-box;
@@ -109,7 +108,7 @@ header .right ul{
   background-color:var(--bg-secondary-color);
   padding:12px 5px;
   max-width:610px;
-  margin:30px auto;
+  margin:0px auto;
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
   border-radius:10px;
@@ -155,8 +154,44 @@ input[type="search"]:focus{
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      max-width: 600px;
+      margin: 0 auto;
 }
 .service-area .inner{
+  margin-bottom: 20px;
+  width: 20%;
+  text-align: center;
+}
+.service-area .inner .img-wrapper{
+  margin: 0 auto;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--bg-secondary-color);
+  cursor: pointer;
+  box-shadow: var(--white-rgba-color);
+}
+
+.service-area .inner a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-area .inner img{
+  width: 35px;
+  transition: 0.3s;
+}
+.service-area .inner img:hover{
+  width: 40px;
+}
+.service-area .inner a .text{
+  margin-top: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* .service-area .inner{
   width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,5 +236,5 @@ input[type="search"]:focus{
   margin-top: 10px;
   font-weight: 400;
   text-transform: capitalize;
-}
+} */
 /********* Service Area End Hare *********/
