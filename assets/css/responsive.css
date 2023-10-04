@@ -10,7 +10,6 @@
 }
 @media(max-width:767.90px){
   header .nav-menu{
-    /* display: none; */
     padding-left: 0;
   }
   header .left ul li{
@@ -35,7 +34,7 @@
     padding: 25px 0;
   }
   .service-area .inner{
-    width: 45%;
+    width: 25%;
   }
 }
 @media(max-width:450px){

@@ -191,50 +191,5 @@ input[type="search"]:focus{
   text-align: center;
   text-transform: capitalize;
 }
-/* .service-area .inner{
-  width: 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 15px 15px;
-  border-radius: 10px;
-  background-color: var(--bg-secondary-color);
-  cursor: pointer;
-  -webkit-box-shadow: var(--white-rgba-color);
-          box-shadow: var(--white-rgba-color);
-  margin-bottom: 25px;
 
-}
-.service-area .inner img{
-  max-width: 50px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-
-}
-.service-area a{
-  display: inline-block;
-  text-align: center;
-  
-}
-.service-area .inner:hover img{
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-}
-.service-area p{
-  margin-top: 10px;
-  font-weight: 400;
-  text-transform: capitalize;
-} */
 /********* Service Area End Hare *********/
